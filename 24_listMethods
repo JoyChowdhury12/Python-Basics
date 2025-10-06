@@ -1,0 +1,29 @@
+list = [3,1,2]
+print(list)
+
+list.append(5) # add one element at the end [3,1,2,5]
+print(list)
+
+list.sort() # sorted ascending order
+print(list)
+
+list.sort(reverse=True) # sorted in descending order
+print(list)
+
+
+# lets take a new list
+
+list2 = ['a','e','d','c','b']
+
+list2.reverse() # this will reverse the list
+print(list2)
+
+list2.insert(2, 'f') # this will insert elements via index
+print(list2)
+
+
+list2.remove('d') # remove function basically remove elements
+print(list2)
+
+list2.pop(2) # pop function basically removes elements via index
+print(list2)
