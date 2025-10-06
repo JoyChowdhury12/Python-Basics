@@ -1,1 +1,1 @@
-55
+car1 = ToyotaCar("Fortuner")
